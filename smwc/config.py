@@ -18,7 +18,10 @@ USER_HOME = Path.home()
 RETROARCH_BIN = r'C:\RetroArch-Win64\retroarch.exe'
 
 # Floating IPS Binary
-FLIPS_BIN = ''
+FLIPS_BIN = 'BASE_DIR/cmdMutiPatch'
+
+# On Mac use MultipatchCmd
+#MULTIPATCHCMD = BASE_DIR/cmdMutiPatch
 
 # RA Config Directory
 RETROARCH_CONFIG_DIR = r'C:\RetroArch-Win64'

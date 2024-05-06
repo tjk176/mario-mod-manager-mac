@@ -247,7 +247,7 @@ class SMWRomhackDownloader:
         flips_bin = get_bin(
             FLIPS_BIN, 
             which_cmd_name='flips', 
-            version_output_substrings=['floating', 'flips']
+            version_output_substrings=['floating', 'flips', 'cmdMutiPatch']
         )
         if flips_bin is None and VENDOR_FLIPS_BIN.exists():
             print("Looking for flips in vendor directory... this version could be outdated.")
